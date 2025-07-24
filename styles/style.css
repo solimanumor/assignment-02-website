@@ -1,0 +1,72 @@
+/* font-01 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font-01 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* font-02 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font-02 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+.width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+/* nav style */
+
+.Navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-links{
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 48px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#home{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 600;
+}
+.S-A-color{
+    color: rgba(137, 135, 161, 1);
+}
+
+/* ------------------------ Responsive for small Device---------------------------- */
+
+@media screen and (max-width:576px) {
+    .responsiveness{
+        display: none;
+    }
+    
+}
+
+
