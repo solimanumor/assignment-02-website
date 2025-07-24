@@ -72,6 +72,11 @@ header{
 .banner{
     margin-top: 120px;
     padding-top: 100px;
+    flex-direction: row-reverse;
+}
+.banner-img{
+    width: 100%;
+    border: 1px solid red;
 }
 .banner-tittle{
     font-size: 4rem;
@@ -86,7 +91,9 @@ header{
     .responsiveness{
         display: none;
     }
-    
+    .banner{
+        flex-direction: column;
+    }
 }
 
 
