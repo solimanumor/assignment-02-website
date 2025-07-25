@@ -314,6 +314,26 @@ margin-top: 130px;
     font-weight: 500;
 }
 
+/* Footer  */
+
+.footer{
+    display: flex;
+    padding: 50px 160px;
+    gap: 110px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.footer-list{
+    list-style: none;
+    margin-top: 32px;
+}
+.footer-list-a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    
+}
+.footer-social img{
+    padding: 24px;
+}
 
 /* ------------------------ Responsive for small Device---------------------------- */
 
@@ -352,6 +372,11 @@ margin-top: 130px;
     .joint-section{
         width: 100%;
     }
+    .footer{
+        flex-direction: column;
+        /* justify-content: left; */
+    }
+
     
 }
 
