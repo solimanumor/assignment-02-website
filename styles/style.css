@@ -45,6 +45,7 @@
     color: white;
     font-weight: 500;
     text-align: center;
+    
 }
 .titlle{
     font-size: 3.12rem;
@@ -139,9 +140,11 @@ main{
     width: 100%;
 }
 /* plant lover */
+
 .plant-lover{
     margin-top: 210px;
     gap: 60px;
+    height: 597px;
 }
 
 .bagde{
@@ -157,6 +160,122 @@ main{
 .shop-info ul li {
     margin-top: 20px;
 
+}
+
+
+/* latest Deal */
+
+.latest-deal{
+margin-top: 130px;
+}
+
+.deal-info{
+    text-align: center;
+    border: 1px solid red;
+    
+}
+
+/* deal package */
+
+.deal-container{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 25px;
+   
+   
+}
+
+.deal{
+    background-image: url('../assets/deal-bloom.png');
+    background-size: cover;
+    
+    /* border: 1px solid red; */
+    margin-bottom: 25px;
+    height: 206px;
+    width: 366px; 
+    border-radius: 15px;
+    
+}
+
+.deal-1{
+    background-image: url('../assets/deal-ana.png');
+    background-size: cover;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    height: 206px;
+    width: 366px; 
+   
+}
+.deal-card-2{
+    background-image: url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
+}
+
+.deal-name{
+    
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 600;
+   
+    
+    
+}
+.shop-link{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    
+    
+}
+
+/* joint section */
+
+.joint-section{
+    margin-top: 130px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 305px;
+    
+    
+}
+.joint-info{
+    text-align: center;
+}
+
+.join-title{
+    color: white;
+    font-weight: 700;
+}
+.input-field{
+    display: flex;
+    gap: 0;
+}
+.input-join{
+    height: 50px;
+    /* width: 644px; */
+    /* margin: 0; */
+   border: none;
+   width: 100%;
+   padding-left: 20px;
+}
+.btn-subscribe{
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 19px 53px;
+    font-weight: 500;
 }
 
 
