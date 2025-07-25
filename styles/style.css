@@ -143,7 +143,13 @@ main{
     margin-top: 120px;
     gap: 60px;
 }
-
+.bagde{
+    height: 286px;
+    width: 286px;
+    position: relative;
+    left: 347px;
+    bottom: 724px;
+}
 .shop-info{
     padding: 38px 0;
 }
