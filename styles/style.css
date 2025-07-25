@@ -142,11 +142,21 @@ main{
 /* plant lover */
 
 .plant-lover{
-    margin-top: 210px;
+   
+    margin-top: 120px;
     gap: 60px;
-    height: 597px;
+   justify-items: center;
+   
 }
+.plant-shop{
+       
+       height: 597px;
 
+}
+.shop-img{
+    height: 100%;
+    
+}
 .bagde{
     height: 286px;
     width: 286px;
@@ -156,6 +166,8 @@ main{
 }
 .shop-info{
     padding: 38px 0;
+            
+
 }
 .shop-info ul li {
     margin-top: 20px;
@@ -254,15 +266,22 @@ margin-top: 130px;
     
     
 }
+
+
 /* joint section */
+#joint-bg{
+    max-width: 1400px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 .joint-section{
     margin-top: 130px;
     background-image: url(../assets/news-letter-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 200px 305px;
+    
     
     
 }
@@ -316,11 +335,23 @@ margin-top: 130px;
     .plant-lover{
         flex-direction: column;
     }
+    
     .plant-shop img{
     width: 100%;
     }
+    .latest-deal{
+        margin-top: 130px;
+    }
     .deal-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .deal,
+    .deal-1{
+        width: 100%;
+    }
+
+    .joint-section{
+        width: 100%;
     }
     
 }
