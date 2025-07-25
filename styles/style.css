@@ -140,9 +140,10 @@ main{
 }
 /* plant lover */
 .plant-lover{
-    margin-top: 120px;
+    margin-top: 210px;
     gap: 60px;
 }
+
 .bagde{
     height: 286px;
     width: 286px;
@@ -162,7 +163,8 @@ main{
 /* ------------------------ Responsive for small Device---------------------------- */
 
 @media screen and (max-width:576px) {
-    .responsiveness{
+    .responsiveness,
+    .bagde{
         display: none;
     }
     .banner{
@@ -172,6 +174,12 @@ main{
     
     .card-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .plant-lover{
+        flex-direction: column;
+    }
+    .plant-shop img{
+    width: 100%;
     }
     
 }
